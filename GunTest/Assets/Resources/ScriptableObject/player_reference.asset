@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31c4728cc7a34af88189d9c230568cef, type: 3}
+  m_Name: player_reference
+  m_EditorClassIdentifier: 
+  playerBehaviour: {fileID: 5478273049338319405, guid: 57df4ae32c47b4b8bafd74c088173504, type: 3}
+  smokeParticleSystem: {fileID: 3723376443131638403, guid: 25d749156ab9145479ac2c40e11461e3, type: 3}
+  mark: {fileID: 8704365394116603390, guid: b810cb33a21c54717960ba9a49b21c5d, type: 3}
+  trajectoryLineMaterial: {fileID: 2100000, guid: d120618a7a0dd4b85bab45ad193a468e, type: 2}
+  projectileMaterial: {fileID: 2100000, guid: ef4bc3d3ee9d24cd3b27fb6c0ba7da4f, type: 2}
+  defaultPower: 50
+  rotateHorizontalSpeed: 80
+  rotateVerticalSpeed: 40
+  minHorizontalAngel: 0
+  maxHorizontalAngel: 0
+  minVerticalAngel: 0
+  maxVerticalAngel: 0
+  minProjectileSpeed: 5
+  maxProjectileSpeed: 20
+  minProjectileSize: 0.1
+  maxProjectileSize: 0.4
+  maxProjectileLifeTimeSeconds: 2
+  gravity: 9.8
+  trajectoryTimeSeconds: 2
+  minDumpingHit: 0.5
+  maxDumpingHit: 0.1
